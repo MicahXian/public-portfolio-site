@@ -31,27 +31,27 @@ interface SeoTdk {
 }
 // SEO TDK 首页
 export const homeTdk: SeoTdk = {
-	title: '这里是设计师陈熙的个人网站',
-	description: '这是我的设计师陈熙部分项目展示',
-	keywords: '陈熙,博客'
+	title: '这里是Micah.X的个人博客',
+	description: '这是我的部分项目展示',
+	keywords: 'Micah.X,博客'
 }
 // SEO TDK 博客
 export const blogTdk: SeoTdk = {
-	title: '陈熙的博客',
+	title: 'Micah.X的博客',
 	description: '记录我的一些想法和笔记',
-	keywords: '陈熙,博客,blog'
+	keywords: 'Micah.X,博客,blog'
 }
 // SEO TDK 关于
 export const aboutTdk: SeoTdk = {
-	title: '设计师陈熙的个人介绍',
-	description: '设计师陈熙的个人介绍',
-	keywords: '陈熙,博客'
+	title: 'Micah.X的个人介绍',
+	description: 'Micah.X的个人介绍',
+	keywords: 'Micah.X,博客'
 }
 // SEO TDK  项目
 export const projectTdk: SeoTdk = {
-	title: '陈熙的项目介绍',
+	title: 'Micah.X的项目介绍',
 	description: '这是我的部分项目展示',
-	keywords: '陈熙,博客,project'
+	keywords: 'Micah.X,博客,project'
 }
 // SEO TDK 404
 export const notFoundTdk: SeoTdk = {
@@ -135,9 +135,9 @@ interface PageDescription {
 	about?: string
 }
 export const pageDescription: PageDescription = {
-	index: '我是陈熙，一个拥有超过5年经验的创意设计师和开发人员，在这里可以了解更多关于我的信息，或者阅读我的一些文章和笔记。',
+	index: '我是Micah.X，一名计算机科学与技术专业的在校学生，在这里可以了解更多关于我的信息，或者阅读我的一些文章和笔记。',
 	project: "这是我的部分项目展示",
-	about: '专注于产品、品牌、UI设计和视觉开发',
+	about: '专注于学习、生活、工作和远方',
 	blog: '这是我的个人笔记和想法， 希望你能够获得帮助！',
 }
 
@@ -150,11 +150,11 @@ export interface FilterItem {
 }
 export const filterItems: FilterItem[] = [
 	{ content: "网页", dataGroup: "web" },
-	{ content: "UI", dataGroup: "ui" },
-	{ content: "三维", dataGroup: "3d" },
-	{ content: "摄影", dataGroup: "photography" },
-	{ content: "插画", dataGroup: "illustration" },
-	{ content: "品牌", dataGroup: "brand" },
+	{ content: "编程", dataGroup: "ui" },
+	{ content: "项目", dataGroup: "3d" },
+	{ content: "日常", dataGroup: "photography" },
+	{ content: "摄影", dataGroup: "illustration" },
+	{ content: "旅行", dataGroup: "brand" },
 	{ content: "其他", dataGroup: "other" }
 ];
 
